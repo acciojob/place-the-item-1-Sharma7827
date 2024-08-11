@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .holder{
+            width: 90vw;
+            height: 90vh;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
+            
+            
+        }
+
+        .item-1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            font-size: 2rem;
+            font-weight: bold;
+            order: 2;
+
+        }
+
+        .item-2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            font-size: 2rem;
+            font-weight: bold;
+            order: 3;
+
+        }
+
+        .item-3{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            font-size: 2rem;
+            font-weight: bold;
+            order: 1;
+
+        }
+
+        
+            
+        
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="holder">
+        <div class="item-1">1</div>
+        <div class="item-2">2</div>
+        <div class="item-3">3</div>
+    </div>
 </body>
-
 </html>
